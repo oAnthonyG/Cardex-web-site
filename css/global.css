@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --rubik: 'Rubik', sans-serif;
+  --poppins: 'Poppins', sans-serif;
+  --roboto: 'Roboto', sans-serif;
+
+  --black: #000;
+  --white: #FFF;
+  --white100: #F8FCFF;
+  --white200: #E4E4E4;
+
+  --grey100: #D1D1D1;
+  --grey200: #C4C4C4;
+  --grey300: #BDBDBD;
+  --grey400: #B5B5B5;
+  --grey500: #B1B1B1;
+  --grey600: #A4A4A4;
+  --grey700: #858282;
+  --grey800: #6A6A6A;
+  --grey900: #454545;
+
+  --blue100: #3498EF;
+  --blue200: #188AEC;
+  --blue300: #18354D;
+}
