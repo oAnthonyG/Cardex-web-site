@@ -35,4 +35,5 @@
   background-color: var(--blue100);
   border-radius: 8px;
   border: none;
+  cursor: pointer;
 }

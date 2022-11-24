@@ -1,0 +1,49 @@
+.main-banner {
+  display: flex;
+  margin-top: 5.75rem;
+}
+
+.banner-container {
+  width: 45%;
+  margin-left: auto;
+}
+
+.main-title {
+  font-family: var(--poppins);
+  font-weight: 600;
+  font-size: 3.8125rem;
+  line-height: 80px;
+  color: var(--blue300);
+}
+
+.main-text {
+  font-family: var(--poppins);
+  font-weight: 500;
+  font-size: 1.625rem;
+  line-height: 39px;
+  color: var(--grey600);
+}
+
+.banner-container-img {
+  width: 50%;
+  overflow: hidden;
+}
+
+.banner-container-img img {
+  width: 71rem;
+}
+
+.main-button.-btn-buy {
+  font-weight: 500;
+  font-size: 2.25rem;
+  padding: 13px 66px 14px;
+}
+
+.main-button.-btn-sell {
+  font-weight: 500;
+  font-size: 2.25rem;
+  padding: 13px 69px 14px 68px;
+  background-color: transparent;
+  color: var(--blue200);
+  border: 1px solid var(--blue200);
+}

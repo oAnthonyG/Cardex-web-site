@@ -26,3 +26,7 @@
   --blue200: #188AEC;
   --blue300: #18354D;
 }
+
+body{
+  background-color: var(--white100);
+}
