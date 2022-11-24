@@ -1,0 +1,38 @@
+.main-header {
+  font-family: var(--rubik);
+  font-weight: 400;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2.75rem;
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6.25rem;
+  list-style: none;
+  font-size: 1.625rem;
+}
+
+.header-list li:first-child .header-link {
+  color: var(--blue100);
+  font-weight: 500;
+}
+
+.header-link {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 400;
+}
+
+.main-button {
+  font-family: var(--rubik);
+  font-weight: 600;
+  font-size: 1.625rem;
+  padding: 15px 28px 16px 35px;
+  color: var(--white);
+  background-color: var(--blue100);
+  border-radius: 8px;
+  border: none;
+}
