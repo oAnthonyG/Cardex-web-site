@@ -13,6 +13,7 @@
   font-weight: 600;
   font-size: 3.8125rem;
   line-height: 80px;
+  margin-bottom: 1.6rem;
   color: var(--blue300);
 }
 
@@ -21,6 +22,7 @@
   font-weight: 500;
   font-size: 1.625rem;
   line-height: 39px;
+  margin-bottom: 2.8125rem;
   color: var(--grey600);
 }
 
@@ -46,4 +48,9 @@
   background-color: transparent;
   color: var(--blue200);
   border: 1px solid var(--blue200);
+}
+
+.gap-button{
+  display: flex;
+  gap: 50px;
 }

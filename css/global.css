@@ -27,6 +27,18 @@
   --blue300: #18354D;
 }
 
-body{
+body {
   background-color: var(--white100);
+}
+
+@media screen and (max-width: 1080px) {
+  body {
+    font-size: 93.75%;
+  }
+}
+
+@media screen and (max-width: 768) {
+  body {
+    font-size: 87.5%;
+  }
 }
