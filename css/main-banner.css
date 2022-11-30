@@ -50,7 +50,7 @@
   border: 1px solid var(--blue200);
 }
 
-.gap-button{
+.gap-button {
   display: flex;
   gap: 50px;
 }

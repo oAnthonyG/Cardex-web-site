@@ -1,0 +1,81 @@
+.main-showcase {
+  font-family: var(--poppins);
+  margin-top: 9.875rem;
+}
+
+.main-title.-showcase-title {
+  font-weight: 500;
+  font-size: 3.1875rem;
+  line-height: 80px;
+  text-align: center;
+}
+
+.main-text.-showcase-text {
+  font-weight: 400;
+  font-size: 26px;
+  width: 553px;
+  height: 64px;
+  margin-inline: auto;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+.showcase-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4.75rem;
+  margin-top: 6.3125rem;
+}
+
+.car-showcase-content {
+  width: 340px;
+  background-color: var(--white);
+  box-shadow: 2px 2px 72px rgba(0, 0, 0, 0.07);
+  border-radius: 7.37905px;
+}
+
+.showcase-box-content {
+  padding: 0 1.375rem;
+}
+
+.showcase-img {
+  width: 100%;
+  height: 216px;
+}
+
+.showcase-car-brand {
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: var(--blue200);
+}
+
+.name-price-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.125rem;
+}
+
+.showcase-name-car {
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: var(--blue300);
+}
+
+.showcase-price-car {
+  font-weight: 600;
+  font-size: 1.375rem;
+  color: var(--blue200);
+}
+
+.showcase-btn {
+  width: 100%;
+  font-weight: 600;
+  font-size: 1.375rem;
+  height: 2.9375rem;
+  border: none;
+  border-radius: 0px 0px 7px 7px;
+  color: var(--white);
+  background-color: var(--blue200);
+}
