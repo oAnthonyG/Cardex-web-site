@@ -1,0 +1,47 @@
+.main-service {
+  margin-top: 9.875rem;
+}
+
+.main-title.-service-title {
+  font-weight: 500;
+  font-size: 3.1rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.main-text.-service-text {
+  font-family: var(--roboto);
+  font-weight: 400;
+  font-size: 1.625rem;
+  text-align: center;
+}
+
+.service-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2.25rem;
+  margin-top: 6.25rem;
+}
+
+.service-box {
+  font-family: var(--rubik);
+  width: 24.375rem;
+  padding: 2.25rem;
+}
+
+.service-container-title {
+  font-weight: 500;
+  font-size: 1.875rem;
+  line-height: 5rem;
+  text-transform: capitalize;
+  color: var(--blue300);
+}
+
+.service-container-text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: justify;
+  color: var(--grey800);
+}
