@@ -1,0 +1,41 @@
+.story-container {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  margin-top: 9.875rem;
+}
+
+.story-box {
+  width: 50%;
+}
+
+.main-title.-story-title {
+  font-weight: 600;
+  font-size: 2.875rem;
+  width: 50%;
+  line-height: 4.3125rem;
+  color: var(--grey900);
+}
+
+.main-text.-story-text {
+  font-weight: 500;
+  font-size: 1.4375rem;
+  line-height: 2rem;
+  text-align: justify;
+  color: var(--grey200);
+}
+
+.story-container-img {
+  background: center / cover url(../images/pexels-tyler-wang.png);
+  width: 29rem;
+  height: 25rem;
+  overflow: hidden;
+}
+
+.main-button.-story-btn {
+  font-family: var(--poppins);
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  padding: 17px 30px;
+  border-radius: 10px;
+}
