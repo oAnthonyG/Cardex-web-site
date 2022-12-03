@@ -1,6 +1,7 @@
 .main-footer {
   font-family: var(--poppins);
   padding: 78px 60px 68px;
+  margin-top: 9.875rem;
   color: var(--white);
   background-color: var(--blue100);
 }
@@ -68,4 +69,16 @@ a {
   height: 40px;
   background-color: var(--white);
   border-radius: 50%;
+}
+
+@media screen and (max-width: 500px){
+  .footer-container{
+    gap: 2rem;
+  }
+  .footer-nav{
+    gap: 2rem;
+  }
+  .footer-nav ul{
+    width: 90%;
+  }
 }

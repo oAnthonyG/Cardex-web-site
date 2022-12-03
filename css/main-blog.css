@@ -1,6 +1,6 @@
 .main-blog {
   font-family: var(--poppins);
-  margin-bottom: 10rem;
+  margin-top: 9.875rem;
 }
 
 .blue-bar {
@@ -80,4 +80,28 @@
   justify-content: center;
   gap: .8rem;
   margin-top: 3em;
+}
+
+@media screen and (max-width: 800px){
+  .blog-box{
+    width: 90%;
+  }
+
+  @media screen and (max-width: 600px){
+    .main-title.-blog-title{
+      font-size: 2rem;
+    }
+    .blog-title{
+      font-size: 1.6rem;
+    }
+    .blog-text{
+      font-size: 1.4rem;
+    }
+  }
+}
+
+@media screen and (max-width: 420px){
+  .img-blog-box{
+    width: 100%;
+  }
 }
