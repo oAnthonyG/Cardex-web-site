@@ -45,3 +45,14 @@
   text-align: justify;
   color: var(--grey800);
 }
+
+@media screen and (max-width: 600px){
+  .main-title.-service-title{
+    font-size: 2rem;
+  }
+  .main-text.-service-text{
+    width: 90%;
+    font-size: 1.4rem;
+    margin: auto;
+  }
+}
