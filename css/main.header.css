@@ -37,3 +37,57 @@
   border: none;
   cursor: pointer;
 }
+
+#btn-mobile {
+  display: none;
+}
+
+
+@media screen and (max-width: 1300px) {
+  .header-list {
+    gap: 3rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main-header {
+    padding-inline: 3rem;
+    justify-content: space-between;
+    
+  }
+
+  #btn-mobile {
+    display: block;
+    border: none;
+    background-color: transparent;
+  }
+
+
+  .header-list {
+    /*display: none;*/
+    display: block;
+    position: absolute;
+    width: 0;
+    height: calc(100vh - 110px);
+    top: 110px;
+    right: 0;
+    z-index: 1000;
+    transition: .6s;
+    visibility: hidden;
+    overflow-x: hidden;
+    background-color: var(--white300);
+  }
+
+  #nav.active .header-list {
+    display: block;
+    width: 100%;
+    visibility: visible;
+    overflow-x: auto;
+  }
+
+  .header-list li {
+    padding: 1.6rem 0;
+    margin: 0 3.2rem;
+  }
+
+}

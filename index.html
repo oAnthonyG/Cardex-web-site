@@ -22,13 +22,16 @@
 <body>
   <header class="main-header">
     <img src="./images/Logo.png" alt="Logo">
-    <nav>
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expended="false">
+        <span id="hamburger"><box-icon id="icone-menu" name='menu'size="md"></box-icon></span>
+      </button>
       <ul class="header-list">
         <li><a class="header-link -active" href="">Home</a></li>
         <li><a class="header-link" href="">service</a></li>
         <li><a class="header-link" href="">testimonials</a></li>
         <li><a class="header-link" href="">Blog</a></li>
-        <button class="main-button">Register</button>
+       <li> <button class="main-button">Register</button></li>
       </ul>
     </nav>
   </header>
@@ -264,6 +267,9 @@
     </ul>
 
   </footer>
+
+  <script src="./components/script.js"></script>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </body>
 
 </html>
