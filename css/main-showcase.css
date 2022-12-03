@@ -86,3 +86,14 @@
 .showcase-btn:hover{
   background-color: var(--blue100);
 }
+
+@media screen and (max-width: 600px){
+  .main-title.-showcase-title{
+    font-size: 2rem;
+  }
+  .main-text.-showcase-text{
+    font-size: 1.4rem;
+    width: 90%;
+    height: auto;
+  }
+}

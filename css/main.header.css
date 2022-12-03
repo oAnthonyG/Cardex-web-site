@@ -53,15 +53,15 @@
   .main-header {
     padding-inline: 3rem;
     justify-content: space-between;
-    
+
   }
 
   #btn-mobile {
     display: block;
     border: none;
     background-color: transparent;
+    cursor: pointer;
   }
-
 
   .header-list {
     /*display: none;*/

@@ -54,3 +54,50 @@
   display: flex;
   gap: 50px;
 }
+
+@media screen and (max-width: 900px){
+  .main-banner{
+    margin-top: 2rem;
+  }
+  .banner-container{
+    width: 90%;
+    margin-inline: auto ;
+  }
+  .gap-button{
+    justify-content: center;
+  }
+  .main-button.-btn-buy{
+    width: 40%;
+    font-size: 1.625rem;
+  }
+  .main-button.-btn-sell{
+    width: 40%;
+    font-size: 1.625rem;
+  }
+  .banner-container-img{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .main-title{
+    font-size: 2rem;
+    line-height: 50px;
+  }
+  .main-text{
+    font-size: 1.4rem;
+    line-height: 30px;
+  }
+  .gap-button{
+    flex-direction: column;
+
+  }
+  .main-button.-btn-buy{
+    width: auto;
+
+  }
+  .main-button.-btn-sell{
+    width: auto;
+
+  }
+}
